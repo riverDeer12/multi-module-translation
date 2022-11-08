@@ -1,3 +1,4 @@
 {
-  "some-feature-text": "Some Feature Text"
+  "some-feature-text": "Some Feature Text",
+  "feature-text": "Some component feature text"
 }

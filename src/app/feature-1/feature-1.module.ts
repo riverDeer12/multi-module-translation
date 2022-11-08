@@ -6,9 +6,10 @@ import {HttpClient} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {Feature1Component} from "./feature-1.component";
 import {SharedModule} from "../shared/shared.module";
+import { FeatureComponent } from './feature/feature.component';
 
 @NgModule({
-  declarations: [Feature1Component],
+  declarations: [Feature1Component, FeatureComponent],
   imports: [
     CommonModule,
     Feature1RoutingModule,
